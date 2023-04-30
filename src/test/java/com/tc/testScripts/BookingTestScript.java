@@ -18,13 +18,13 @@ public class BookingTestScript {
 	TestData testData = new TestData();
 
 
-	@Test
+	@Test(priority = 1)
 	public void createBookingTest(){
 		Response response = pageService.createBooking();
 		Assert.assertEquals(response.getStatusCode(), StatusCode.OK);
 	}
 
-	@Test
+	@Test(priority = 2)
 	public void getBookingIdTest(){
 		Response response = pageService.createBooking();
 		Assert.assertEquals(response.getStatusCode(), StatusCode.OK);
@@ -34,7 +34,7 @@ public class BookingTestScript {
 		Assert.assertEquals(getBookingResponse.getStatusCode(), StatusCode.OK);
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void udpateBookingTest(){
 		Response response = pageService.createBooking();
 		Assert.assertEquals(response.getStatusCode(), StatusCode.OK);
@@ -52,7 +52,7 @@ public class BookingTestScript {
 		Assert.assertEquals(udpatedBookingResponse.getStatusCode(), StatusCode.OK);
 	}
 
-	@Test
+	@Test(priority = 4)
 	public void deleteBookingTest(){
 		Response response = pageService.createBooking();
 		Assert.assertEquals(response.getStatusCode(), StatusCode.OK);

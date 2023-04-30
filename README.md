@@ -30,7 +30,12 @@ This is Rest assured API Automation test framework for Restful-booker APIs
 - Clone the project from git clone https://github.com/pravinsarda/Booking_RestAPI_Automation.git
 - Import the project (\Booking_RestAPI) in IntelliJ File -> New -> Project from Existing Sources -> Browse Project Location -> pom.xml
 - Now click on auto import -> Ok wait until the IntelliJ downloads all the dependencies
-- Execute test -> java -> com.tc.testScripts -> BookingTestScript.java
+
+### Execution
+- Execute the test -> java -> com.tc.testScripts -> BookingTestScript.java 
+
+### Report
+- Check target folder - BookingTestReport.html
 
 ### Booking_RestAPI_Automation Structure
 

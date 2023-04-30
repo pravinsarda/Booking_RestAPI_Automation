@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Booking_RestAPI_Automation" />
+        <module name="Booking_RestAPI" />
       </profile>
     </annotationProcessing>
   </component>

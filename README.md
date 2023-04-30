@@ -23,6 +23,9 @@ Install Maven
 Cloning & Importing the Project
 
 Clone the project from git clone https://github.com/pravinsarda/Booking_RestAPI_Automation.git
+
 Import the project (\Booking_RestAPI) in IntelliJ File -> New -> Project from Existing Sources -> Browse Project Location -> pom.xml
+
 Now click on auto import -> Ok wait until the IntelliJ downloads all the dependencies
+
 Execute test -> java -> com.tc.testScripts -> BookingTestScript.java

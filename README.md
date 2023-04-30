@@ -1,11 +1,11 @@
 # Booking_RestAPI_Automation
 This is Rest assured API Automation test framework for Restful-booker APIs
 
-#### Requirement
+### Requirement
 - Documentation of [Restful-booker](https://restful-booker.herokuapp.com/apidoc/index.html )
 - refer "Booking TCs" excel sheet in the project
 
-#### Required software:
+### Required software:
 
 - JAVA as the programming language for writing test code
 - RestAssured library to test REST APIs
@@ -17,9 +17,9 @@ This is Rest assured API Automation test framework for Restful-booker APIs
 - lombok-intellij-plugin -> this plugin in IntelliJ recognize all of generated getters, setters.
 
 
-#### Getting Started
+### Getting Started
 
-#### Setup your machine:
+### Setup your machine:
 
 - Install JDK 11
 - Install [IntelliJ](https://download.jetbrains.com/idea/ideaIC-2020.3.4.exe?_gl=1*1spo3x*_ga*MTkzMDEyNDY5LjE2ODI3NjM3NjE.*_ga_9J976DJZ68*MTY4Mjc2Mzc2MS4xLjEuMTY4Mjc2Mzc2My4wLjAuMA..&_ga=2.44128036.1833959567.1682763761-193012469.1682763761) (Community edition is fine) (version 2020.3.4)
